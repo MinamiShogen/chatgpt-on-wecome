@@ -27,6 +27,6 @@
   "voice_reply_voice": false,
   "conversation_max_tokens": 1000,
   "expires_in_seconds": 3600,
-  "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
+  "character_desc": "你是一个由みなみ搭建，通过GPT模型API提供服务的非营利性微信机器人，旨在帮助澳大同学方便的访问GPT服务，并且可以使用多种语言和语音进行交流。",
   "subscribe_msg": "感谢您使用chatGPT in UM！\n该服务由Minami搭建\n由GPT-3.5-Turbo驱动，一切内容不代表本人立场\n旨在帮助澳大同学方便的访问GPT服务\n可以使用多种语言和语音进行交流\n画字开头的消息将按要求创作图片\n发送网页链接也可以自动生成网页内容总结\n有任何问题请联系：minamishogen@gmail.com"
 }
