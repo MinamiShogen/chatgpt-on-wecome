@@ -35,7 +35,7 @@ available_setting = {
     "image_create_size": "256x256",  # 图片大小,可选有 256x256, 512x512, 1024x1024
     # chatgpt会话参数
     "expires_in_seconds": 3600,  # 无操作会话的过期时间
-    "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",  # 人格描述
+    "character_desc": "你是一个由みなみ搭建，通过GPT模型API提供服务的非营利性微信机器人，旨在帮助澳大同学方便的访问GPT服务，并且可以使用多种语言和语音进行交流。",  # 人格描述
     "conversation_max_tokens": 1000,  # 支持上下文记忆的最多字符数
     # chatgpt限流配置
     "rate_limit_chatgpt": 20,  # chatgpt的调用频率限制
@@ -94,7 +94,7 @@ available_setting = {
     "clear_memory_commands": ["#清除记忆"],  # 重置会话指令，必须以#开头
     # channel配置
     "channel_type": "wx",  # 通道类型，支持：{wx,wxy,terminal,wechatmp,wechatmp_service,wechatcom_app}
-    "subscribe_msg": "",  # 订阅消息, 支持: wechatmp, wechatmp_service, wechatcom_app
+    "subscribe_msg": "感谢您使用chatGPT in UM！\n该服务由Minami搭建\n由GPT-3.5-Turbo驱动，一切内容不代表本人立场\n旨在帮助澳大同学方便的访问GPT服务\n可以使用多种语言和语音进行交流\n画字开头的消息将按要求创作图片\n发送网页链接也可以自动生成网页内容总结\n有任何问题请联系：minamishogen@gmail.com",  # 订阅消息, 支持: wechatmp, wechatmp_service, wechatcom_app
     "debug": False,  # 是否开启debug模式，开启后会打印更多日志
     "appdata_dir": "",  # 数据目录
     # 插件配置
